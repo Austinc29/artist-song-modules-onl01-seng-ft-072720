@@ -1,11 +1,2 @@
-module Memorable
-  def self.reset_all
-    extend
-    self.all.clear
-  end
+require 'pry'
 
-  def self.count
-    extend
-    self.all.count
-  end
-end 
